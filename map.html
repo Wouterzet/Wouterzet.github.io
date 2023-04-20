@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <title>NaviGO</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <div id="header-logo">NaviGO</div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="filler"></div>
+        <div id="map"></div>
+    </div>
+    <footer>
+        <nav id="bottom-nav">
+            <div id="search-button-container" onclick="location.href='index.html'">
+                <img src="./img/search.svg" alt="Search Picture" id="search-picture">
+            </div>
+            <div id="map-button-container" onclick="location.href='map.html'">
+                <img src="./img/map.svg" alt="Maps Picture" id="maps-picture">
+            </div>
+            <div id="rate-button-container" onclick="location.href='rate.html'">
+                <img src="./img/star-nav.svg" alt="Activities Picture" id="rate-picture">
+            </div>
+        </nav>
+    </footer>
+    <!-- Load the Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBulPNMUgklXg9vN0JtVB8KMm0V1G768UA"></script>
+    <!-- Load scrip.js -->
+    <script src="mapScript.js"></script>
+</body>
+
+</html>

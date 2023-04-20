@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <title>NaviGO</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <div id="header-logo">NaviGO</div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="sub-titel-rating">Hoeveel sterren geef jij de route</div>
+        <div class="rate-container" id="rate-container-1">
+            <div class="rate-container-rating">
+                <img class="rate-rating-star-image" id="rating-star-1" src="img/Star.svg" alt="star">
+                <img class="rate-rating-star-image" id="rating-star-2" src="img/Star.svg" alt="star">
+                <img class="rate-rating-star-image" id="rating-star-3" src="img/Star.svg" alt="star">
+                <img class="rate-rating-star-image" id="rating-star-4" src="img/Star.svg" alt="star">
+                <img class="rate-rating-star-image" id="rating-star-5" src="img/Star.svg" alt="star">
+            </div>
+        </div>
+        <div class="sub-titel-rating">Laat hier een opmerking achter</div>
+        <div class="rate-container" id="rate-container-1">
+            <textarea id="freeform" name="freeform" rows="4" cols="100">
+            </textarea>
+        </div>
+    </div>
+    <footer>
+        <nav id="bottom-nav">
+            <div id="search-button-container" onclick="location.href='index.html'">
+                <img src="./img/search.svg" alt="Search Picture" id="search-picture">
+            </div>
+            <div id="map-button-container" onclick="location.href='map.html'">
+                <img src="./img/map.svg" alt="Maps Picture" id="maps-picture">
+            </div>
+            <div id="rate-button-container" onclick="location.href='rate.html'">
+                <img src="./img/star-nav.svg" alt="Activities Picture" id="rate-picture">
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
