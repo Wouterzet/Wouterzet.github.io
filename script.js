@@ -302,6 +302,6 @@ async function getHeartRateData() {
 // Call functions every 2 seconds
 setInterval(getHeartRateData, 2000);
 setInterval(parseGPSData, 2000);
-setInterval(updateOtherUserMarkers, 2000);
+setInterval(updateOtherUserMarkers, 1000);
 setInterval(addMarker, 4000);
 
